@@ -1,0 +1,5 @@
+def back_home():
+	 #hides the menu 
+	sign_up.hide()
+	user_textbox.clear()
+	PW_textbox.clear()
