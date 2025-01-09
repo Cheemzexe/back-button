@@ -1,5 +1,8 @@
 def back_home():
-	 #hides the menu 
+	#hides the menu 
 	sign_up.hide()
-	user_textbox.clear()
-	PW_textbox.clear()
+	username_textbox.clear()
+	password_textbox.clear()
+	ForgetPass.hide()
+	Booking.hide()
+	payment.hide()
