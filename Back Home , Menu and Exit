@@ -1,0 +1,23 @@
+def back_home():
+	#hides the menu 
+	sign_up.hide()
+	username_textbox.clear()
+	password_textbox.clear()
+	ForgetPass.hide()
+	MainMenu.hide()
+
+def Back_Menu(): # Back button function
+	MainMenu.show()
+	Healthy.hide()
+	Advice.hide()
+	Premium.hide()
+	CreateWorkout.hide()
+	FitnessTracker.hide()
+	UserSocials.hide()
+
+
+def exit(): #exits the entire program
+	info("Exit","Leaving...")
+	sign_up.hide() #hides the menu 
+	MainMenu.hide() #hides the menu
+	app.hide() #hides the menu 

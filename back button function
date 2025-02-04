@@ -1,8 +1,0 @@
-def back_home():
-	#hides the menu 
-	sign_up.hide()
-	username_textbox.clear()
-	password_textbox.clear()
-	ForgetPass.hide()
-	Booking.hide()
-	payment.hide()
